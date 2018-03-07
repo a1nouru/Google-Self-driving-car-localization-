@@ -1,5 +1,7 @@
+# Essense code of Self-driving car localizer.
+
 p=[0.2, 0.2, 0.2, 0.2, 0.2]
-world=['green', 'red', 'red', 'green', 'green']
+world=['green', 'red', 'red', 'green', 'green'] # Colours of lane markers. (robocar reads these to know it's exact location)
 measurements = ['red', 'green'] #locations senses from sensor
 motions = [1,1] #steps
 pHit = 0.6 
@@ -32,3 +34,5 @@ for k in range(len(measurements)):
     p = move(p, motions[k])
     
 print p         
+
+#We are more interested in the probability of which cell, where robocar is most likely to be. 
