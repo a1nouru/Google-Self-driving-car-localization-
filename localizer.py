@@ -1,5 +1,5 @@
 # Contributed by Nouru Muneza
-#resulting probability distribution.
+#Posterior distribution
 
 p=[0, 1, 0, 0, 0]
 world=['green', 'red', 'red', 'green', 'green'] #simple possible positions in the world. 
