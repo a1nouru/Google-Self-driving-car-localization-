@@ -1,5 +1,5 @@
 # Contributed by Nouru Muneza
-#Posterior distribution
+#Posterior distribution of a moving robocar
 
 p=[0, 1, 0, 0, 0]
 world=['green', 'red', 'red', 'green', 'green'] #simple possible positions in the world. 
