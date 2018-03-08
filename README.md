@@ -1,4 +1,4 @@
-# Google-Self-driving-car-localization-
+# Google-Self-driving-car-localizer
 This is a simple algorithm that computes a possible location of a Robocar in motion.
 
 Entropy of the robocar will decrease after the measurement update (sense) step and entropy will increase after movement step (move).
