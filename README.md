@@ -10,3 +10,5 @@ Looking at an example where the robot could be at one of five different position
 Following the formula Entropy = \Sigma (-p \times log(p))Entropy=Σ(−p×log(p)), we get -5 \times (.2)\times log(0.2) = 0.699−5×(.2)×log(0.2)=0.699.
 
 Taking a measurement will decrease uncertainty and entropy. Let's say after taking a measurement, the probabilities become [0.05, 0.05, 0.05, 0.8, 0.05][0.05,0.05,0.05,0.8,0.05]. Now we have a more certain guess as to where the robot is located and our entropy has decreased to 0.338.
+
+[Learnt this in Udacity class AI for robotics](https://classroom.udacity.com/courses/cs373)
